@@ -1,81 +1,30 @@
 # JavaScript Practice
 
-This repository contains my JavaScript learning and practice tasks completed during internship training.
+This repository contains my JavaScript learning and practice work including ES6 concepts, asynchronous JavaScript, and API projects.
 
 ## Topics Covered
+- Functions (Declaration, Expression, Arrow Functions)
+- Callbacks
+- Array Methods (map, filter, forEach, reduce)
+- Promises
+- Async/Await
+- Fetch API
+- Error Handling
 
-### ES6 Concepts
+## API Projects
+- Users API Project
+- Products API Project
 
-* let and const
-* Arrow Functions
-* Destructuring
-* Spread and Rest Operators
+## APIs Used
+- https://jsonplaceholder.typicode.com/users
+- https://fakestoreapi.com/products
 
-### Functions
+## Features Practiced
+- Fetch data from API
+- Display data dynamically
+- Loading state handling
+- Error handling
+- Search/Filter functionality
 
-* Function Declaration
-* Function Expression
-* Arrow Functions
-* Callback Functions
-
-### Array Methods
-
-* forEach()
-* map()
-* filter()
-* find()
-* reduce()
-
-### Callbacks
-
-* Basic Callback Example
-* Callback with Parameters
-* Callback using setTimeout()
-
-### Promises
-
-* Promise Resolve
-* Promise Reject
-* Promise Chaining using .then()
-
-### Async/Await
-
-* Creating Async Functions
-* Using Await
-* Error Handling with try/catch
-
-### Fetch API
-
-* Making GET Requests
-* Converting API Responses to JSON
-* Displaying Data Dynamically
-
-### Error Handling
-
-* API Error Handling
-* Network Error Handling
-* User-Friendly Error Messages
-
-## Projects
-
-### User API Project
-
-Features:
-
-* Fetch user data from API
-* Display data dynamically
-* Search functionality
-* Loading state
-* Error handling
-
-API Used:
-https://jsonplaceholder.typicode.com/users
-
-## Repository Structure
-
-* ES6 Concepts
-* Functions
-* Array Methods
-* Async JavaScript
-* API Practice
-
+## Author
+Ayushi
