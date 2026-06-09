@@ -2,51 +2,19 @@
 
 ## Topics Covered
 
-### ES6 Concepts
-- let, const
-- Destructuring
-- Spread and Rest Operators
-- Arrow Functions
+- ES6 Concepts
+- Functions
+- Array Methods
+- Callbacks
+- Promises
+- Async/Await
+- Fetch API
+- Error Handling
 
-### Functions
-- Function Declaration
-- Function Expression
-- Arrow Functions
-- Callback Functions
+## User API Project
 
-### Array Methods
-- forEach()
-- map()
-- filter()
-- find()
-- reduce()
-
-### Callbacks
-- Basic Callback
-- Callback with Parameters
-- Callback using setTimeout()
-
-### Promises
-- Promise Resolve
-- Promise Reject
-- Promise Chaining
-
-### Async/Await
-- Async Functions
-- Await Keyword
-- Error Handling using try/catch
-
-### Fetch API
-- GET Requests
-- JSON Conversion
-- Displaying Data Dynamically
-
-### Error Handling
-- API Error Handling
-- try/catch
-
-### User API Project
-- Fetch Users
+Features:
+- Fetch Users from API
 - Search Functionality
 - Loading State
 - Error Handling
