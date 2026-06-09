@@ -1,6 +1,6 @@
 # JavaScript Practice
 
-This repository contains my JavaScript practice work, including ES6 concepts, functions, array methods, asynchronous JavaScript, and API projects.
+This repository contains my JavaScript learning and practice tasks completed during internship training.
 
 ## Topics Covered
 
@@ -15,8 +15,8 @@ This repository contains my JavaScript practice work, including ES6 concepts, fu
 
 * Function Declaration
 * Function Expression
-* Arrow Function
-* Callback Function
+* Arrow Functions
+* Callback Functions
 
 ### Array Methods
 
@@ -40,14 +40,14 @@ This repository contains my JavaScript practice work, including ES6 concepts, fu
 
 ### Async/Await
 
-* Async Functions
-* Await Keyword
-* Error Handling using try/catch
+* Creating Async Functions
+* Using Await
+* Error Handling with try/catch
 
 ### Fetch API
 
 * Making GET Requests
-* Converting Response to JSON
+* Converting API Responses to JSON
 * Displaying Data Dynamically
 
 ### Error Handling
@@ -62,7 +62,7 @@ This repository contains my JavaScript practice work, including ES6 concepts, fu
 
 Features:
 
-* Fetch users from API
+* Fetch user data from API
 * Display data dynamically
 * Search functionality
 * Loading state
@@ -79,6 +79,3 @@ https://jsonplaceholder.typicode.com/users
 * Async JavaScript
 * API Practice
 
-## Author
-
-Ayushi
