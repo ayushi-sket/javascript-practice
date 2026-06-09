@@ -1,23 +1,30 @@
 let users = [];
 
+// Load users from API
 async function getUsers() {
 
     const loading = document.getElementById("loading");
     const usersDiv = document.getElementById("users");
 
+    // show loading
     loading.innerText = "Loading...";
+    usersDiv.innerHTML = "";
+
+    // ⭐ IMPORTANT: force UI to render loading text
+    await new Promise(resolve => setTimeout(resolve, 50));
 
     try {
 
-        const response = await fetch(
-            "https://jsonplaceholder.typicode.com/users"
-        );
+        // fetch API
+        const response = await fetch("https://jsonplaceholder.typicode.com/users");
 
         users = await response.json();
 
-        displayUsers(users);
-
+        // hide loading
         loading.innerText = "";
+
+        // show users
+        displayUsers(users);
 
     } catch (error) {
 
@@ -27,6 +34,8 @@ async function getUsers() {
     }
 }
 
+
+// Display users in UI
 function displayUsers(data) {
 
     const usersDiv = document.getElementById("users");
@@ -45,9 +54,9 @@ function displayUsers(data) {
     });
 }
 
-document
-.getElementById("search")
-.addEventListener("input", function () {
+
+// Search functionality
+document.getElementById("search").addEventListener("input", function () {
 
     const value = this.value.toLowerCase();
 
